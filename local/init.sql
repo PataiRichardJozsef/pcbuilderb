@@ -14,6 +14,7 @@ CREATE TABLE gadget (
 );
 
 CREATE TABLE hardware_mapping (
+    id serial primary key,
     motherboard_id int,
     hardware_id int
 );

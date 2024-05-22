@@ -14,6 +14,7 @@ import org.hibernate.annotations.Generated;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "hardware_mapping")
+
 public class Mapping {
 
     @Id
@@ -23,4 +24,5 @@ public class Mapping {
 
     private Integer motherboardId;
     private Integer hardwareId;
+
 }
